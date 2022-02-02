@@ -1,0 +1,9 @@
+I don't have access to ArcGIS to test this or create screenshots for a guide, but there is a guide here:
+
+https://desktop.arcgis.com/en/arcmap/10.3/manage-data/gdbs-in-postgresql/connect-postgresql.htm
+
+Just make sure you select the appropriate version from the drop down menu near the top.
+
+You can ignore the section titled "Configure the database to allow connections"; this was taken care of automatically when I setup the database.
+
+The "Instance" field should probably just be the host/address used in my other examples (i.e., database-test.czjjiuh5qhb7.us-east-2.rds.amazonaws.com)

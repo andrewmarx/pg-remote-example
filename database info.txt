@@ -1,0 +1,20 @@
+Host/address: database-test.czjjiuh5qhb7.us-east-2.rds.amazonaws.com
+Port: 5432
+Database: fgsp-test
+
+
+Account: fgsp-user1
+Password: fgsp-password
+Description: This account can only read data from the data base.
+
+Account: fgsp-user2
+Password: fgsp-password
+Description: This account can add and update data in tables, but cannot remove records.
+
+
+Tables
+- sampling: some made up sample data. The first column is a surrogate primary key. The point column is a foreign key referring to the id column in the sample_points table. Everything but the notes column is mandatory.
+- fgsp_sites: Three sites (KPPSP, TLWMA, AVPAFR) that were just extracted from the FNAI data and uploaded into their own table. Comes with all the columns that FNAI provided. The geom column contains spatial data for GIS applications.
+- sample_points: Some made up point count locations. Consists of just a unique id. The geom column contains spatial data for GIS applications.
+
+

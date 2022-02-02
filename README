@@ -1,0 +1,5 @@
+This repository contains examples of how to connect to a remote spatial PostgreSQL + PostGIS database using R, MS Access, ArcGIS, and QGIS. It was developed in 2019 as a demo/prototype for a potential project. My goal with this prototype was to illustrate the advantages of using a database server over local databases. I am uploading it here in case some people find the information helpful (as well as for my own future reference).
+
+The original test database was hosted using Amazon Relational Database Service (RDS), but I eventually disabled it when it was no longer needed. Therefore, the examples will no longer run.
+
+Additionally, given the age the demo, some of the instructions and code may be outdated and should be taken with a grain of salt.

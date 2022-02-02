@@ -1,0 +1,18 @@
+Connecting to a PostgreSQL database in QGIS is pretty straightforward. Note that this was done using a relatively recent version.
+
+1: Right click "PostGIS" on the browser pane and select "New Connection"
+2: Provide a name for the connection. Can be anything. A combination of the database name and username is a good approach (you can create multiple connections to the database for different users, which can be useful for different situations).
+3: Fill out the host address
+4: Port should be 5432
+5: The database field needs to match the actual name of the database you want to connect to.
+6: Set SSL mode to "prefer"
+7: Fill out the user name and password under the "Basic" tab
+8: By default, you will not be able to see non-spatial tables. You can change this by selecting the "Also list tables with no geometry" option.
+9: Click the "Test Connection" button to make sure it works
+10: Click the "OK" button
+
+This is all shown in the included qgis image. The main difference is you should use a different connection name for the first field and the fgsp-user1/fgsp-user2 accounts.
+
+Now you can add layers from this database to your project. Depending on the user permissions, you can edit the data in QGIS as well. The "Database" -> "DB Manager" menu option provides a way to do things like import csv files and new GIS data into the database. 
+
+

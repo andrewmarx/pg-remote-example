@@ -1,0 +1,15 @@
+[ODBC]
+DRIVER=PostgreSQL Unicode(x64)
+UID=fgsp-user1
+A1=7.4
+CX=1c305008b
+D6=-101
+C2=
+BI=0
+B1=8190
+B0=255
+A7=100
+CA=p
+PORT=5432
+SERVER=database-test.czjjiuh5qhb7.us-east-2.rds.amazonaws.com
+DATABASE=fgsp-test
